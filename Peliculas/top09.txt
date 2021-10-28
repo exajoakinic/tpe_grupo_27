@@ -1,1 +1,2 @@
-Titulo Original: Django Unchained
+Titulo Original: Jackie Brown
+Titulo Traducido : Jackie Brown
