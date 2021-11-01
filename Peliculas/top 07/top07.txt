@@ -1,1 +1,6 @@
 peli 7
+
+nombre:
+Actores:
+Director:
+Sinopsis:
