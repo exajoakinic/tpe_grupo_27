@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function(event) {
-    const url = "https://raw.githubusercontent.com/exajoakinic/tpe_grupo_27/";
+    const url = "https://raw.githubusercontent.com/exajoakinic/tpe_grupo_27/master/Pagina%20Web/";
     const json_error = [{ "titulo": "error", "titulo_original": "error", "generos": ["error"], "sinopsis": "error", "duracion": "error", "director": "error", "actores": ["error"], "pais_de_origen": "error", "fecha_de_salida": "error" }]
 
     /* create top tier */
@@ -9,8 +9,8 @@ document.addEventListener("DOMContentLoaded", function(event) {
         div.innerHTML = `${i}`;
         div.addEventListener("click", function(e) {
             cargar_datos(i, //top position
-                `master/Pagina%20Web/jsons/top${('0' + i).slice(-2)}.json`, //top json information
-                `main/Pagina%20Web/Portadas/portadatop${('0' + i).slice(-2)}.jpg` /*top jpg cover*/ 
+                `jsons/top${('0' + i).slice(-2)}.json`, //top json information
+                `Portadas/portadatop${('0' + i).slice(-2)}.jpg` /*top jpg cover*/ 
             )
         });
         toptier.appendChild(div);
