@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
         div.addEventListener("click", function(e) {
             cargar_datos(i, //top position
                 `jsons/top${('0' + i).slice(-2)}.json`, //top json information
-                `Portadas/portadatop${('0' + i).slice(-2)}.jpg` /*top jpg cover*/ 
+                `Multimedia/portadatop${('0' + i).slice(-2)}.jpg` /*top jpg cover*/ 
             )
         });
         toptier.appendChild(div);
